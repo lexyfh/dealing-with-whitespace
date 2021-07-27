@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
   font-family: "Crimson Text", serif;
-  font-weight: normal;
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -10,18 +9,22 @@ html {
   box-sizing: inherit;
 }
 
-h1 {
+article h1 {
   font-size: 1.5rem;
   color: #222;
   margin-bottom: 0rem;
   font-weight: normal;
 }
 
-h1 + p {
+article header p {
   font-style: italic;
   font-size: 1.125rem;
   margin-top: 0rem;
   color: #555;
+}
+
+article p {
+  font-weight: normal;
 }
 
 .quote {
@@ -38,4 +41,5 @@ article ol {
 
 body {
   line-height: 1.3;
+  margin-bottom: 1.3rem;
 }
